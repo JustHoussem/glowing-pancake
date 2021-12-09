@@ -1,0 +1,68 @@
+
+.time{
+font-family: 'Roboto', sans-serif;
+position: absolute;
+bottom: 0;
+left: 0;
+font-size: 35px;
+background-color: black;
+color: white;
+}
+.menu{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    text-decoration: none;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+
+}
+h1{
+    position: absolute;
+    padding-left: 40vh;
+    padding-top: 40vh;
+    font-size: 100px;
+    color: rgb(7, 7, 7);
+
+}
+
+
+
+
+
+
+body  {
+    background-image: url("pizza.jpg");
+background-size: cover;
+ }
+ .navbar {
+    width: 1800px;
+    display: flex;
+    background: rgb(180, 186, 187);
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  li a {
+    font-size:20px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li {
+    text-align: center;
+    border-bottom: 1px solid rgb(32, 32, 32);
+  }
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+ 
+ 
